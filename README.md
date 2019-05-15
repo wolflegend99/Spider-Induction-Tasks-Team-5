@@ -1,5 +1,4 @@
 # Spider-Induction-Tasks-Team-5
-The repo for task submission
 
 **Task_v2.0(Group Activity):** 
 http://www.github.com/ ---- Clone/Fork a common github repo to your local system 
