@@ -7,7 +7,7 @@ The basic idea of this task is to understand how collaborated projects work on g
 Terminal: 
 After cloning the repo you’ll be given a particular algorithm to implement in your favourite programming language 
 Code the algorithm and then push the file to the repository.
-Make sure you pull request before pushing your code to GitHub(http://www.github.com/).
+
 After pushing the code, finally put a pull request. 
 Your pull request will then be reviewed by the collaborator. 
 If everything is fine and your mentor is convinced and contented your request will be approved.
