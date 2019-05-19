@@ -23,10 +23,10 @@ int rem(int n,int b,int d)
     }
     else
     {
-    	k=rem(n/2,b,d)*rem(n/2,b,d);
-        return (k%d);
+    	k=rem(n/2,b,d);
+        return (int(pow(k,2))%d);
     }
-    
+   
 }
 
 int main()
