@@ -3,28 +3,28 @@
 
 using namespace std;
 
-vector<int> bin(int n)//function to convert the power into binary
+vector<int> bin(int n)
 {
     vector<int> a;
     int k;
     while(n!=0)
     {k=n%2;
     a.push_back(k);
-    if(k=1)
     n=n/2;
     }
     return a;
 }
 
-int rem(int n,int b,int d)//function to find the reminder
-{
+int rem(int n,int b,int d)
+{int k;
     if(n==1)
     {
         return b%d;
     }
     else
     {
-        return ((rem(n/2,b,d)*rem(n/2,b,d))%d);
+    	k=rem(n/2,b,d)*rem(n/2,b,d);
+        return (k%d);
     }
     
 }
@@ -48,5 +48,6 @@ int main()
         }
         product=product%d;
     }
-    return product;
+    cout<<product;
+    return 0;
 }
