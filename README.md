@@ -14,7 +14,7 @@ If everything is fine and your mentor is convinced and contented your request wi
 Finally, you are now a contributor and you’ve conquered the BATTLEGROUND.
 Congrats you are now a git enlightened !!! 
 
-**The algotrithm to be implemented is *Modular Exponentiation*. Read about it, if you guys don't know it. It's a really simple implementation and optimising algorithm, which would be essential in many competitive contests!**
+**The algorithm to be implemented is *Modular Exponentiation*. Read about it, if you guys don't know it. It's a really simple implementation and optimising algorithm, which would be essential in many competitive contests!**
 
 **Pull requests will be verified and accepted by Shashvat or me.**
 
