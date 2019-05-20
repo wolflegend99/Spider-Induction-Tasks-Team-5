@@ -1,0 +1,35 @@
+#include<stdio.h>
+#include<conio.h>
+
+int emod(int a, int b, int c)
+	{
+	if(a==0)
+		return 0; //only one answer possible
+	if(b==0)
+		return (1%c);//will give either 0 or 1
+
+	long x;
+	if(b%2==0){
+	x=emod(a,b/2,c); //using recursion in case if b is even so we can use the property (a^b)%c=(a^b/2)*(a^b/2)%c
+	x=(x*x)%c; // as x will become a^b/2
+	}
+	else{
+	x=a%c;
+	x=(x*emod(a,b-1,c)%c);
+	x=x%c;
+	}
+	return (int)((x+c)%c);
+	}
+int main()
+	{
+	int a,b,c;
+	getch();
+	clrscr();
+	printf("Enter 3 numbers to calculate modular exponentation\n");
+	scanf("%d %d %d",&a,&b,&c);
+	int ans= emod(a,b,c);
+	printf("\nAnswer is %d\n",ans);
+	return 0;
+	}
+
+
