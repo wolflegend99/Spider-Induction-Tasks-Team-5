@@ -18,7 +18,7 @@ int partition(point w[1000], int low, int high) //used to find the position to d
 	
 	for(k= low; k<=high-1; k++)
 	{
-		if(w[k].a < pivot.a || (w[k].a == pivot.a && w[k].b<=pivot.b ) ) //Element smaller than the pivot are moved forward
+		if(w[k].a < pivot.a || (w[k].a == pivot.a && w[k].b<pivot.b ) ) //Element smaller than the pivot are moved forward
 		{
 			i++;
 			swap(w[k],w[i]);
